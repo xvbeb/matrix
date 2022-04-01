@@ -1,0 +1,218 @@
+.card{
+	width: 400px;
+	margin: 30px auto;
+	background-color: white;
+	box-shadow: 0 5px 10px;
+	border-radius: 10px;
+	padding: 20px;
+}
+body{
+	margin: 0;
+	background: url("img/pattern.png");
+}
+html,
+body {
+	height: 100%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0%;
+}
+.card-photo {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.card-title {
+	font-size: 20px;
+	text-align: center;
+}
+.card-title:hover {
+	color: red;
+}
+.card-title:visited{
+	color:springgreen;
+}
+.card-title:active {
+	color: black;
+}
+address {
+	text-align: center;
+}
+.page {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+footer,
+header {
+	padding: 20px;
+	background-color:black ;
+}
+.footer {
+	margin-top:auto;
+	display: inline;
+}
+a {
+	color: white;
+	text-decoration: none;
+
+}
+.content {
+	flex: 1 1 auto;
+}
+.text-foot {
+	color: white;
+	text-align: center;
+}
+.citata {
+	text-align: center;
+	font-family:Tahoma;
+	margin-bottom: 30%;
+}
+.card-text {
+	font-size: 20px;
+	text-align: center;
+	margin: 20px;
+}
+.nothingToSay {
+	margin: 10px;
+	font-size: 30px;
+	color:darkorchid;
+	text-align: center;
+}
+
+.card-footer {
+	color: white;
+	text-align:end;
+}
+nav ul {
+	display: flex;
+	margin: 5;
+	justify-content: space-around;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.card-git, .card-yt {
+	width: 100px;
+	height: 100px;
+	max-width: 100%;
+	display:block;
+	margin: 0 auto;
+	align-content: center;
+}
+.sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+	text-align: center;
+}
+.nothingToSay2 {
+	margin: 0;
+	font-size: 30px;
+	color:red;
+	text-align: center;
+}
+.nothingToSay a{
+	color: black;
+}
+.header-nav,
+li {
+	list-style: none;
+}
+.header-nav li{
+	display: inline-block;
+	padding: 0px 20px;
+	color: white;
+	object-position: left;
+	
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.header-nav li a {
+	transition: all 0.3s ease 0s;
+}
+.header-nav li a:hover {
+	color:lightsteelblue;
+}
+nav {
+	order: 1;
+}
+button {
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: white;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: lightslategrey;
+}
+.cta {
+	order: 2;
+}
+.logo {
+	cursor: pointer;
+	order: 3;
+	margin-left: auto;
+	width: 100px;
+	height: 50px;
+}
+.card-title a{
+	color:black;
+}
+.nothingToSay a, .card-title a{
+	transition: all 0.5s ease 0s;
+}
+.card-title a:hover, .nothingToSay a:hover{
+	color: violet;
+}
+.card-git, .card-yt {
+	transition: transform 0.5s;
+}
+.card-git:hover, .card-yt:hover {
+	transform: scaleX(1,1);
+	transform: scaleY(1.1);
+	padding: 5px;
+}
+.header-nav li a {
+	padding: 20px;
+	display: flex;
+}
+.text-foot ul {
+	transition: all 0.5s ease;
+}
+.text-foot:hover {
+	background-color: red;
+}
+
+.header-nav ul {
+	background-color: whitesmoke;
+	border-right: 2px white;
+	transition: all 0.5s ease;
+}
+.header-nav li a:hover, .footer li a:hover {
+	background-color:rgb(44, 43, 41) ;
+}
+.card-git, .card-yt {
+	margin-top: 10px;
+}
