@@ -22,6 +22,7 @@ let charArr = [
   "х",
   "у",
   "й",
+  "?",
 ];
 
 let maxCharCount = 300;
